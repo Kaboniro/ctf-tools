@@ -1,5 +1,5 @@
 #!/bin/bash
-passwordlist="/home/emma/Downloads/linux-chal/cat/exec (2)/ascii/size37/password"
+passwordlist="/path to password list"
 outdir="/next"
 cat "$passwordlist" | tr -d '\r' | while IFS= read -r PW 
 do 
